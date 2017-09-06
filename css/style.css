@@ -294,6 +294,7 @@ select {
 .center {
 	display: inline-block;
 	/*margin: 0 auto;*/
+	padding-left: 40px;
 	width: 31%;
 }
 

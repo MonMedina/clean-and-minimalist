@@ -205,12 +205,11 @@ img {
 }
 	
 .botNav {
-	background-color: #333856;
+	background-color: #333A56;
 	width: 100%;
 	z-index: 1;
 	position: relative;
 	top: -25px;
-	/*opacity: .5;*/
 	padding-top: 100px;
 	border-top-style: dotted;
 	border-width: 4px;
@@ -223,10 +222,10 @@ img {
 	height: 100%;
 }
 
-.botNav:after {
+.botNavContent:after {
 	content:"";
 	clear: both;
-	display: block;
+	display: inline-flex;
 }
 
 .smallPic:after {

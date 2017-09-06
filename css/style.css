@@ -207,7 +207,6 @@ img {
 .botNav {
 	background-color: #333A56;
 	width: 100%;
-	z-index: 1;
 	position: relative;
 	top: -25px;
 	padding-top: 100px;
@@ -219,13 +218,12 @@ img {
 .botNavContent {
 	width: 800px;
 	margin: 0 auto;
-	height: 100%;
 }
 
 .botNavContent:after {
 	content:"";
 	clear: both;
-	display: inline-flex;
+	display: inline-block;
 }
 
 .smallPic:after {
@@ -247,6 +245,8 @@ button {
 	border-radius: 10px;
 	font-family: Quicksand;
 	margin-bottom: 20px;
+	width: 90%;
+	line-height: 16px;
 }
 
 li p { 
@@ -292,9 +292,9 @@ select {
 }
 
 .center {
-	margin: 0 auto;
+	display: inline-block;
+	/*margin: 0 auto;*/
 	width: 31%;
-
 }
 
 .botNavContent  ul > li{
@@ -317,10 +317,10 @@ select {
 
 .right {
 	width: 31%;
-	/*float: right;*/
-	position: relative;
+	float: right;
+	/*position: relative;
 	top: -570px;
-	left: 530px;
+	left: 530px;*/
 	height: 300px;
 
 }
@@ -341,8 +341,9 @@ select {
 
 footer {
 	margin-top: 50px;
-	background-color: #333856;
-	opacity: .5;
+	background-color: gray;
+	/*opacity: .5;*/
+	padding: 5px;
 	text-align: center;
 	color: white;
 	word-spacing: .2em;
